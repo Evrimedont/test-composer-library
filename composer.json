@@ -1,20 +1,8 @@
 {
   "name": "evrimedont/test-composer-library",
-  "description": "Test composer library",
-  "version": "1.0.0",
-  "type": "library",
-  "authors": [
-    {
-      "name": "Evgenii Baranov",
-      "email": "evrimedont@gmail.com"
-    }
-  ],
   "autoload": {
     "psr-4": {
       "Evrimedont\\": "src"
     }
-  },
-  "require": {
-    "php": ">=7.4"
   }
 }
